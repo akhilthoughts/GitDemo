@@ -10,6 +10,7 @@ public class Day1 {
 	public void lastExecution()
 	{
 		System.out.println("I will execute at the last after the test folder");
+		System.out.println("Git tutorials");
 	}
 	
 	@Parameters({"URL" ,"Username"})
@@ -19,12 +20,14 @@ public class Day1 {
 		System.out.println("hello");
 		System.out.println(urlname);
 		System.out.println(Username);
+		System.out.println("Git tutorials");
 	}
 	
 	@AfterSuite
 	public void ASuite()
 	{
 		System.out.println("I will execute last after all test is executed");
+		System.out.println("Git tutorials");
 	}
 	
 	@Parameters({"URL"})
@@ -33,6 +36,7 @@ public class Day1 {
 	{
 		System.out.println("Second Test");
 		System.out.println(urlname);
+		System.out.println("Git tutorials");
 	}
 
 }
