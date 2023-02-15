@@ -11,6 +11,8 @@ public class Day1 {
 	{
 		System.out.println("I will execute at the last after the test folder");
 		System.out.println("Git tutorials");
+		System.out.println("I will execute at the last after the test folder");
+		System.out.println("Git tutorials");
 	}
 	
 	@Parameters({"URL" ,"Username"})
@@ -21,11 +23,26 @@ public class Day1 {
 		System.out.println(urlname);
 		System.out.println(Username);
 		System.out.println("Git tutorials");
+		System.out.println("hello");
+		System.out.println(urlname);
+		System.out.println(Username);
+		System.out.println("Git tutorials");
+	}
+	
+	@Test
+	public void Demo()
+	{
+		System.out.println("hello");
+		System.out.println("Git tutorials");
+		System.out.println("hello");
+		System.out.println("Git tutorials");
 	}
 	
 	@AfterSuite
 	public void ASuite()
 	{
+		System.out.println("I will execute last after all test is executed");
+		System.out.println("Git tutorials");
 		System.out.println("I will execute last after all test is executed");
 		System.out.println("Git tutorials");
 	}
@@ -34,6 +51,9 @@ public class Day1 {
 	@Test
 	public void SecondTest(String urlname)
 	{
+		System.out.println("Second Test");
+		System.out.println(urlname);
+		System.out.println("Git tutorials");
 		System.out.println("Second Test");
 		System.out.println(urlname);
 		System.out.println("Git tutorials");

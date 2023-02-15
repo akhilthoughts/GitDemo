@@ -17,6 +17,7 @@ public class Day2 {
 	public void preRequisite()
 	{
 		System.out.println("I will execute first before the test folder");
+		System.out.println("Pre requisite will be executed before the test folder");
 	}
 
 }

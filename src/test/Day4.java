@@ -10,6 +10,12 @@ public class Day4 {
 		System.out.println("Web login Home");
 	}
 	
+	@Test
+	public void PhysicalHomeLoan()
+	{
+		System.out.println("Physical home loan");
+	}
+	
 	@Test(groups= {"Smoke"})
 	public void MobileLoginHomeLoan()
 	{
